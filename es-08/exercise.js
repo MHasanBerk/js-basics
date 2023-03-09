@@ -1,5 +1,11 @@
-let firstName = "Hasan";
-let lastName = "Berk";
-let fullName = `${firstName} ${lastName}`;
+let vrb = true;
+console.log(`Variable: ${vrb} | Type: ${typeof(vrb)}`);
 
-console.log(fullName);
+vrb = Number(vrb);
+console.log(`Variable: ${vrb} | Type: ${typeof(vrb)}`);
+
+vrb = vrb.toString();
+console.log(`Variable: ${vrb} | Type: ${typeof(vrb)}`);
+
+vrb = Boolean(vrb);
+console.log(`Variable: ${vrb} | Type: ${typeof(vrb)}`);
