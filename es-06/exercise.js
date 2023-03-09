@@ -1,3 +1,3 @@
-let hello = 'Ciao';     // boolean
-let age = 18;       // string
-let isGraduated = false;     // number
+let hello = Boolean('Ciao');     // boolean
+let age = (18).toString();    // string
+let isGraduated = Number(false);     // number
