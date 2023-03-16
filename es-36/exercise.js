@@ -1,11 +1,13 @@
+const sport = "Football"
+
 function canPlay() {
-  let sport = " Football";
+  // let sport = " Football";
 
   if (true) {
-    let personName = "Cosimo";
+    var personName = "Cosimo";
   }
 
-  console.log(personName + sport);
+  console.log(personName + " " + sport);
 }
 
 canPlay();
